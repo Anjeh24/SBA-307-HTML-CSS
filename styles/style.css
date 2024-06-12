@@ -1,0 +1,25 @@
+/*body {
+    background-color: aqua;
+}*/
+
+nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: x-large;
+    background-color: gold;
+    font-size: 40px;
+}
+
+#homeh1 {
+    text-align: center;
+    font-size: 80px;
+    
+}
+
+.homecap {
+    border: 2px solid rgb(209, 195, 195);
+    margin-top: 20%;
+    background-image: url(../images/pexels-photo-4194857.jpeg);
+    
+}
