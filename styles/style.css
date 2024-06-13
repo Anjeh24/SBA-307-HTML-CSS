@@ -21,6 +21,7 @@ nav {
     border: 2px solid rgb(209, 195, 195);
     margin-top: 10%;
     background-image: url(../images/pexels-photo-4194857.jpeg);
+    padding: 20px;
     
 }
 
@@ -57,4 +58,54 @@ nav {
 
 .carousel1 {
     display: inline-block;
+}
+
+.dropul {
+    list-style: none;background-color: gold;
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+   border: 10px;
+   margin: 10px;
+   justify-content: center;
+   font-size: larger;
+   
+   
+}
+
+ul li .drop {
+    display: none;
+    
+    
+
+}
+
+ul li:hover .drop{  /*would display dropdown*/
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+table, th, td {
+    border: 2px solid burlywood;
+}
+
+td {
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    background-color: gold;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.nutrih {
+    text-align: center;
 }
