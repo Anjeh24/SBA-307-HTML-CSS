@@ -19,7 +19,42 @@ nav {
 
 .homecap {
     border: 2px solid rgb(209, 195, 195);
-    margin-top: 20%;
+    margin-top: 10%;
     background-image: url(../images/pexels-photo-4194857.jpeg);
     
+}
+
+.card1 {
+    
+    border: 2px solid snow;
+    width: 25%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: seashell;
+    border-radius: 2%;
+    height: 25%;
+    margin-left: 37.5%;
+    font-weight: bold;
+    
+}
+
+#rech {
+    font-size: large;
+    font-weight: 400;
+}
+
+.recbod {
+    align-items: center;
+    margin: 1%;
+}
+
+.sgif {
+    display: block;
+    padding: 5%;
+    
+    margin-left: 35%;
+}
+
+.carousel1 {
+    display: inline-block;
 }
