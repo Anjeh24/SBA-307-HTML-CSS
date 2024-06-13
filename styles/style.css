@@ -15,8 +15,8 @@ nav {
     text-align: center;
     font-size: 80px;
     animation: normal;
-    animation-duration: 3s;"
-    
+    animation-duration: 3s;
+
 }
 
 .homecap {
@@ -26,15 +26,17 @@ nav {
     padding: 20px;
     animation-name: band;
     animation-duration: 5s;
-    
+
 }
 
 @keyframes band {
-    50% {background-image: url(../images/free-photo-of-dew-on-leaf.jpeg);}
+    50% {
+        background-image: url(../images/free-photo-of-dew-on-leaf.jpeg);
+    }
 }
 
 .card1 {
-    
+
     border: 2px solid snow;
     width: 25%;
     margin-top: 20px;
@@ -46,14 +48,17 @@ nav {
     font-weight: bold;
     animation-name: cardspin;
     animation-duration: 2s;
-    
+
 }
 
 @keyframes cardspin {
     from {
         transform: rotate(0deg);
     }
-    to {transform: rotate(360deg);}
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 #rech {
@@ -73,35 +78,38 @@ nav {
 .sgif {
     display: block;
     padding: 5%;
-    
+
     margin-left: 35%;
 }
 
 .carousel1 {
-    display: inline-block;
+    rotate: 90deg; /*since display flex or inline didn't fix carousel, I rotated it to get it horizontally lined up as last resort*/
+    
 }
 
 .dropul {
-    list-style: none;background-color: gold;
-   display: flex;
-   flex-direction: row;
-   padding: 10px;
-   border: 10px;
-   margin: 10px;
-   justify-content: center;
-   font-size: larger;
-   
-   
+    list-style: none;
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    justify-content: center;
+    font-size: larger;
+
+
 }
 
 ul li .drop {
     display: none;
-    
-    
+
+
 
 }
 
-ul li:hover .drop{  /*would display dropdown*/
+ul li:hover .drop {
+    /*would display dropdown*/
     display: block;
 }
 
@@ -109,7 +117,9 @@ a {
     text-decoration: none;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 2px solid burlywood;
 }
 
@@ -117,14 +127,14 @@ td {
     text-align: center;
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     height: 80px;
     background-color: gold;
     width: 100%;
     text-align: center;
-    
+
 }
 
 .nutrih {
@@ -142,3 +152,4 @@ footer{
     margin-top: 5%;
     background-image: url(../images/pexels-photo-4194857.jpeg);
 }
+
